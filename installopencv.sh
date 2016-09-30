@@ -1,9 +1,8 @@
-#sudo nano /etc/apt/sources.list
-#sudo apt-get update
+sudo nano /etc/apt/sources.list
+sudo apt-get update
+sudo apt-get upgrade
 
-##sudo apt-get upgrade
-
-#sudo rpi-update
+sudo rpi-update
 
 sudo apt-get install -y gstreamer1.0
 sudo apt-get install -y build-essential git cmake pkg-config
@@ -53,37 +52,37 @@ wget  http://pages.cs.wisc.edu/~yetkin/smvr/obj/cow.obj
 
 
 
-#cd ~
-#wget -O opencv.zip https://github.com/Itseez/opencv/archive/3.0.0.zip
-#unzip opencv.zip
+cd ~
+wget -O opencv.zip https://github.com/Itseez/opencv/archive/3.0.0.zip
+unzip opencv.zip
 
 
-#wget -O opencv_contrib.zip https://github.com/Itseez/opencv_contrib/archive/3.0.0.zip
-#unzip opencv_contrib.zip
+wget -O opencv_contrib.zip https://github.com/Itseez/opencv_contrib/archive/3.0.0.zip
+unzip opencv_contrib.zip
 
-#wget https://bootstrap.pypa.io/get-pip.py
-#sudo python get-pip.py
+wget https://bootstrap.pypa.io/get-pip.py
+sudo python get-pip.py
 
-#sudo pip install virtualenv virtualenvwrapper
-#sudo rm -rf ~/.cache/pip
+sudo pip install virtualenv virtualenvwrapper
+sudo rm -rf ~/.cache/pip
 
 
 # virtualenv and virtualenvwrapper
-#export WORKON_HOME=$HOME/.virtualenvs
-#source /usr/local/bin/virtualenvwrapper.sh
+export WORKON_HOME=$HOME/.virtualenvs
+source /usr/local/bin/virtualenvwrapper.sh
 
-#source ~/.profile
+source ~/.profile
 
-#mkvirtualenv cv
-#mkvirtualenv cv -p python3
+mkvirtualenv cv
+mkvirtualenv cv -p python3
 
-#source ~/.profile
-#workon cv
+source ~/.profile
+workon cv
 
 
-#pip install numpy
+pip install numpy
 
-#workon cv
+workon cv
 
-#cd ~/opencv-3.0.0/
-#mkdir build
+cd ~/opencv-3.0.0/
+mkdir build

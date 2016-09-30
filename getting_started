@@ -1,0 +1,10 @@
+1) connect the pi(client) to the lan
+2) make sure that the lan on the host system(ipv4 settings) is set to (shared to othere computers)
+
+$arp
+
+find out the IP corresponding to the device connected over interface eth0/enp3s0
+
+$ssh pi@<ip address>
+
+ 
